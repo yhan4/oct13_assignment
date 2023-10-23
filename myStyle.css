@@ -150,6 +150,40 @@ label, select, input[type="text"], input[type="number"] {
     padding:0 15px;
 }
 
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+    margin-top: 30px;
+    
+}
+
+.pokemon-grid h4 {
+    margin-left: 30px;
+    color: #F2F2F2;
+    text-align: left;
+}
+
+.pokemon-grid h3 {
+    margin-left: 30px;
+    color: #F2F2F2;
+    text-align: left;
+}
+
+.pokemon-card {
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin:10px;
+    text-align: center;
+}
+
+
+.pokemon-card img {
+    max-width: 100%;
+    background-color: #F2F2F2;
+    margin-top: 30px;
+}
+    
+
 .section3 {
     background-color: #F2F2F2;
     padding: 15px 30px;
