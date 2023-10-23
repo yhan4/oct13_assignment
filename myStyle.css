@@ -222,3 +222,16 @@ label, select, input[type="text"], input[type="number"] {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img  {
+    max-width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        display: block; 
+        max-width: 100%; 
+        margin: 0 auto; 
+    }
+}
